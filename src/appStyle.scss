@@ -1,0 +1,8 @@
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Esto centrará verticalmente en la pantalla */
+    text-align: center; /* Esto centrará horizontalmente */
+  }

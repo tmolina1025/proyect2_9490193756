@@ -1,0 +1,39 @@
+
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    .nav-logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+  
+    .nav-links {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+      padding-right: 40px;
+  
+      .nav-link {
+        a {
+          text-decoration: none;
+          color: #fff;
+          font-size: 18px;
+  
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  
